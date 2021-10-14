@@ -15,11 +15,6 @@ TOP OF LIST:
 
 * r-strings/implicit-r/297: double-check end of reference-main-data-types.md.in
 
-* I/O redirects
-  o emit needs flatten ... why is this not happening?
-  o regtest/cases-pending-go-port/dsl-redirects/0078
-  o flatten function OLH needs to say what the args are. unflatten too?
-  o cat out all out.* act/exp
 * mlr -k
 * regtest pendings
   o webdocs re /..../i regex options @ CLIP for windows
@@ -31,6 +26,10 @@ TOP OF LIST:
 
 d pre-release:
   o explicit punchdown list
+    - $cpg $cpw
+    - TODO in *.go & *.mi
+    - release notes per se
+    - ./configure whatever equivalent
   o draft release w/ m6 binaries YYYYMMDD -- ?
   o gha download steps clearer
 
